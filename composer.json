@@ -1,0 +1,32 @@
+{
+  "name": "nwt/postnord-php-sdk",
+    "type": "library",
+    "description": "PHP-SDK to communicate with Post Nord",
+    "homepage": "http://github.com/NordicWebTeam/postnord-php-sdk",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Razvan AVRAMESCU",
+            "email": "razvan@nordicwebteam.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PostNord\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "PostNord\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "squizlabs/php_codesniffer": "2.8.*",
+        "satooshi/php-coveralls": "1.0.*"
+    }
+}
