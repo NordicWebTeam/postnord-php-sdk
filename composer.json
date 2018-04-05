@@ -4,7 +4,7 @@
     "description": "PHP-SDK to communicate with Post Nord",
     "homepage": "http://github.com/NordicWebTeam/postnord-php-sdk",
     "license": "proprietary",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
         {
             "name": "Razvan AVRAMESCU",
