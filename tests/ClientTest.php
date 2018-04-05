@@ -33,7 +33,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     public function testFindNearest()
     {
         $client = $this->getClient($this->api_key);
-        $result = $client->findNearestByZipCode(7100);
-        $this->assertEquals(12, count($result));
+        $result = $client->findNearestByZipCode(45153);
+        $this->assertEquals(1, count($result));
     }
 }
