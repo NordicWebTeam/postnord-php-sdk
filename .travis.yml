@@ -1,5 +1,6 @@
 language: php
 sudo: false
+cache: false
 
 php:
   - 5.5
