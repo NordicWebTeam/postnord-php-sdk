@@ -29,7 +29,7 @@ class Request
 
     protected $apiKey;
     protected $numberOfServicePoints = 12;
-    protected $countryCode = 'DK';
+    protected $countryCode = 'SE';
 
     /**
      * Construct a PostNord Request with an API key and an API version.
